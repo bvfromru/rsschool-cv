@@ -1,1 +1,1 @@
-# rsschool-cv
+https://bvfromru.github.io/rsschool-cv/cv
