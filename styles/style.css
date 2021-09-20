@@ -1,0 +1,253 @@
+body {
+    background-color: rgba(231, 231, 231, 0.281);
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+figure {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    transition-duration: 0.4s;
+    color: #154f62;
+}
+
+a:hover {
+    color: #B40A1B;
+}
+
+h1,h2,h3 {
+    color: #2F3640;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 1200px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #2398AB;
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+}
+
+.main-menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 30px;
+    padding-left: 0;
+}
+
+.main-menu li {
+    list-style-type: none;
+    display: flex;
+}
+
+.main-menu a {
+    text-decoration: none;
+    padding: 10px 5px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.main-menu a:hover {
+    background-color: #F0F6F4;
+}
+
+
+.contact-info ul {
+    padding-left: 15px;
+}
+
+.contact-info li {
+    list-style-type: none;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+}
+
+aside {
+    min-width: 320px;
+    max-width: 320px;
+    background-color: #F0F6F4;
+}
+
+.main-info {
+    min-width: 320px;
+    max-width: 840px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+
+iframe {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-info section::after {
+    display: block;
+    content: "";
+    border-top: 1px solid lightgrey;
+    margin-top: 1.5em;
+}
+
+.main-info section:last-child::after {
+    border: none;
+    margin-top: 1em;
+}
+
+
+.project-item {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: #2398AB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    min-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px; 
+}
+
+.footer-logo-rsschool svg {
+    width: 100px;
+    height: auto;
+}
+
+.footer-github {
+}
+
+.footer-github img {
+    width: 150px;
+    height: 36px;
+}
+
+
+footer a:hover img,
+footer a:hover svg {
+    transform: scale(1.01);
+}
+
+.project-item figcaption {
+    margin-top: 10px;
+}
+
+.project-item img {
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-left: 6px;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.project-item a img {
+    transition-duration: 0.4s;
+}
+
+.project-item a:hover img {
+    filter: brightness(1.1);
+    
+}
+
+@media (max-width: 1000px) {
+
+main {
+    flex-direction: column;
+}
+
+.wrapper {
+    max-width: 1000px;
+    min-width: 310px;
+}
+
+aside {
+    max-width: 1000px;
+    min-width: 310px;
+}
+
+.main-info {
+    max-width: 1000px;
+    min-width: 310px;
+}
+
+}
+
+@media (max-width: 500px) {
+.wrapper {
+    margin: 0;
+    padding-left: 5px; 
+    padding-right: 5px;
+}
+
+.main-info {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contact-info ul {
+    padding-left: 10px;
+}
+
+.contact-info li {
+    list-style-type: none;
+}
+
+}

@@ -1,7 +1,6 @@
 # Vitaliy Budkin
 
 ## Contacts
-
 **Location:** Saratov, Russian Federation\
 **Phone:** +79873816941\
 **Email:** [bvfromru@gmail.com](mailto:bvfromru@gmail.com)\
@@ -9,12 +8,13 @@
 **GitHub:** [bvfromru](https://github.com/bvfromru)
 
 ## About Me
-
+Basically, I'm a "switcher". Although, I have some practical experience in HTML and CSS, but it was more like a hobby, not a full-time job. Now I've decided to become a professional front-end developer. So my goal is to study all the tecnologies a good specialist needs, find a job and make my way from junior developer to further levels. And I beleive I have enought perseverance and potential to achieve this!
 
 ## Skills
 - HTML
 - CSS
-- JavaScript (Basic)
+- JavaScript (basic)
+- CMS Joomla/Wordpress
 - Git/GitHub
 - Photoshop/Figma
 
@@ -40,13 +40,13 @@ function nicknameGenerator(name){
 Saratov State Technical University, Department of "Automobiles and automotive industry"
 ### Courses
 - Intensive online course "Basic HTML and CSS" by HTML Academy, 2016.
-- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress), 2021
+- RS Schools Course «JavaScript/Front-end. 2021Q3» (in progress), 2021
 
 ## Projects
 - [GllacyShop. My main project of HTML Academy online intensive (HTML/CSS)](http://bvfromru.github.io/114786-gllacy/)
 - [Fooseshoes. This project was made as a challenge to my HTML Academy mentor Sergey Popov (HTML/CSS)](https://bvfromru.github.io/secretshoes/)
 
 ## English level
-A2/B1. More than 10 years of watching movies in English whithout any other practice, but I'm working on it now!
+A2/B1. More than 10 years of watching movies in English without any other practice, but I'm working on it now!
 
 ## Video Presentation
