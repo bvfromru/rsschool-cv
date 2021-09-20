@@ -46,9 +46,6 @@ h1,h2,h3 {
 
 header {
     background-color: #2398AB;
-    position: fixed;
-    width: inherit;
-    max-width: inherit;
 }
 
 .main-menu ul {
@@ -73,6 +70,10 @@ header {
     color: black;
 }
 
+.main-menu .burger-toggle {
+    display: none;
+}
+
 .main-menu a:hover {
     background-color: #F0F6F4;
 }
@@ -91,7 +92,6 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    padding-top: 55px;
 }
 
 aside {
@@ -207,6 +207,12 @@ h1 {
     
 }
 
+
+
+
+
+
+
 @media (max-width: 1000px) {
 
 main {
@@ -228,7 +234,61 @@ aside {
     min-width: 310px;
 }
 
+
+.main-menu .burger-toggle {
+    display: block;
+    position: absolute;
+    padding: 24px 19px;
+    background: transparent;
+    color: #2398AB;
+    border: 3px solid #2398AB;
+    font-size: 60px;
+    text-decoration: none;
+    top: 20px;
+    right: 20px;
 }
+
+.main-menu ul {
+    flex-direction: column;
+    background-color: #2398AB;
+    position: absolute;
+    top: 108px;
+    right: 20px;
+    padding: 0px 0px;
+    margin: 0;
+    z-index: 100;
+    display: none;
+}
+
+.main-menu ul.open {
+    display: flex;
+}
+
+
+nav {
+    position: relative;
+}
+
+.main-menu li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-image img {
+    border: 1px solid #aaa;
+    box-shadow: 3px 2px 5px 0 rgb(0 0 0 / 10%);
+}
+
+}
+
+
+
+
+
+
 
 @media (max-width: 500px) {
 .wrapper {
@@ -248,6 +308,16 @@ aside {
 
 .contact-info li {
     list-style-type: none;
+}
+
+.main-menu .burger-toggle {
+    top: 5px;
+    right: 5px;
+}
+
+.main-menu ul {
+    right: 5px;
+    top: 95px;
 }
 
 }

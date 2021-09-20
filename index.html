@@ -7,13 +7,12 @@
     <title>Vitaliy Budkin CV</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/highlight.min.css">
-    <script src="/scripts/highlight.min.js"></script>
 </head>
 <body>
     <div class="wrapper" id="top">
         <header>
             <nav class="main-menu">
-                <ul>
+                <ul class="burger-menu" id="burger-menu">
                     <li><a href="/#top">About me</a></li>
                     <li><a href="/#skills">Skills</a></li>
                     <li><a href="/#code-example">Code example</a></li>
@@ -22,6 +21,7 @@
                     <li><a href="/#english-level">English level</a></li>
                     <li><a href="/#video-presentation">Video presentation</a></li>
                 </ul>
+                <a class="burger-toggle" id="burger-toggle" href="#">☰</a>
             </nav>
         </header>
         <main>
@@ -113,6 +113,8 @@ return name.substr(0, nicknameLength);
             <div class="footer-info">2021</div>
         </footer>
     </div>        
+    <script type="text/javascript" src="/scripts/highlight.min.js"></script>
+    <script type="text/javascript" src="/scripts/hamburger-menu.js"></script>
     <script>hljs.highlightAll();</script>
 </body>
 </html>
