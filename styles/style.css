@@ -13,6 +13,8 @@ figure {
     margin: 0;
 }
 
+
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -201,6 +203,8 @@ h1 {
 
 .project-item a img {
     transition-duration: 0.4s;
+    width: 100%;
+    height: auto;
 }
 
 .project-item a:hover img {
