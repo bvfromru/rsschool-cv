@@ -113,6 +113,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 .main-info section::after {
@@ -166,8 +167,8 @@ footer a:hover svg {
     transform: scale(1.01);
 }
 
-.project-item figcaption {
-    margin-top: 10px;
+.project-item img {
+    margin-bottom: 10px;
 }
 
 .project-item img {
